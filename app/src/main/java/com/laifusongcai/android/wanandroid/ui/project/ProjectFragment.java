@@ -1,4 +1,4 @@
-package com.laifusongcai.android.wanandroid.ui.home;
+package com.laifusongcai.android.wanandroid.ui.project;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,10 +12,9 @@ import com.laifusongcai.android.wanandroid.contract.main.MainContract;
 
 /**
  * @author laifusongcai
- * @date 18-6-25
+ * @date 18-7-8
  */
-public class HomeFragment extends Fragment implements MainContract.View{
-
+public class ProjectFragment extends Fragment implements MainContract.View{
     @Override
     public void setPresenter(MainContract.Presenter presenter) {
 
@@ -24,7 +23,7 @@ public class HomeFragment extends Fragment implements MainContract.View{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.home_fragment,container,false);
+        View view = inflater.inflate(R.layout.project_fragment,container,false);
         return view;
     }
 }

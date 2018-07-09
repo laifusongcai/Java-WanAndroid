@@ -15,7 +15,7 @@
         android:title="@string/bottom_nav_navigation"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/bottom_item_tree"
+        android:id="@+id/bottom_item_knowledge"
         android:enabled="true"
         android:icon="@drawable/ic_nav_knowledge"
         android:title="@string/bottom_nav_knowledge"
